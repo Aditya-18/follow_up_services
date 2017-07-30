@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-Jun-2016, 11:33:22
+    Author     : lenovo
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    text-decoration: none;
+}
+#d ul
+{
+    width:250px;
+    background: rgba(180,205,203,1.00);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+ height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto;
+   
+   
+}
+#d ul li ul
+{
+    width:250px;
+    background: rgba(180,205,203,1.00);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display:none;
+   
+   
+}
+.sub:after
+{
+    content: '\203A';
+    float: right;
+    margin-right: 20px;
+    transform: rotate(90deg);
+   // -moz-transform: rotate(90deg);
+   // -webkit--moz-transform: rotate(90deg);
+}
+ul li ul a:before
+{
+    content: '\203A';
+}
+ul li:hover .sub:after
+{
+    content: '\2039';
+}
+
+#d ul li:hover ul
+{
+display:block
+}
+#d li a{
+    text-transform: uppercase;
+    letter-spacing: .2cm;
+    color: #FFF;
+    display: block;
+    padding: 10px 0px 10px 20px;
+    border-bottom: 1px dotted gray;
+    text-decoration: none;
+}
+#d li ul li a{
+    text-transform: uppercase;
+    letter-spacing: .2cm;
+    color: #FFF;
+    display: block;
+    padding: 10px 0px 10px 20px;
+    border-bottom: 1px dotted gray;
+    text-decoration: none;
+}
+#d li a:hover
+{
+    background: rgba(120,165,163,1.00);
+    
+}
+
+
+
+

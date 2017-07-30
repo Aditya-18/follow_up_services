@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <style>
+   body
+   {
+    background-color: whitesmoke;
+   }
+   #g form{
+    background-color: white;
+   }
+   input[type=text] {
+    width: 100%;
+    height: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+   
+              }
+    input[type=datetime] {
+    width: 100%;
+    height: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+   
+              }
+    input[type=number] {
+    width: 100%;
+    height: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+   
+              }
+     input[type=password] {
+    width: 100%;
+    height: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+   
+              }
+input[type=number]:focus {
+   border: 3px solid #555;
+    
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: inherit;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    
+}
+input[type=datetime]:focus {
+   border: 3px solid #555;
+    
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: inherit;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    
+}
+input[type=password]:focus {
+   border: 3px solid #555;
+  
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: inherit;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    
+}
+input[type=text]:focus {
+   border: 3px solid #555;
+  
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: inherit;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    
+}
+select 
+{    border-radius: 2px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    color: #555;
+    font-size: inherit;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+ 
+
+        </style>
+    </head>
+    <body >
+        <form action="../jsppages/CustomerRegister.jsp" method="post" onSubmit="alert('Your data is saved successfully');">
+        
+                <table>
+                            <tr>
+                                <td>First Name </td>
+                                <td> <select name="prefix">
+                                        <option>Mr.</option>
+                                        <option>Mrs.</option>
+                                        <option>Ms.</option>
+                                        <option>Dr.</option>
+                                        <option>Prof.</option>
+                                    </select><input type="text" name="first_name" value="" required/>  </td> 
+                            </tr>
+                            <tr>
+                                <td>Middle Name</td>
+                                <td> <input type="text" name="middle_name" value="" required/>  </td> 
+                            </tr>
+                            <tr>
+                                <td>Last Name</td>
+                                <td> <input type="text" name="last_name" value="" required/>  </td> 
+                            </tr>
+                            <tr>
+                                <td>Phone No.</td>
+                                <td><input type="number" name="phone_no" value="" /></td>
+                                 
+                            </tr>
+                            <tr>
+                                <td>Mobile No.</td>
+                                <td> <input type="number" name="mobile_no" value="" required/>  </td> 
+                            </tr>
+                            <tr>
+                                <td>Source</td>
+                                <td> <select name="source">
+                                <option>Adverstisements</option>
+                                <option>Cold Call</option>
+                                <option>Employee Referral</option>
+                                <option>Externam Referral</option>
+                                <option>Online Store</option>
+                                <option>Partner</option>
+                                <option>Public Relation</option>
+                                <option>Trade Show</option>
+                                <option>Web Download</option>
+                                <option>Web Search</option>
+                            </select></td>
+                                 
+                            </tr>
+                            <tr>
+                                <td>E-mail</td>
+                                <td> <input type="text" name="email" value="" required/>  </td> 
+                            </tr>
+                             <tr>
+                                <td>Fax</td>
+                                <td> <input type="text" name="fax" value=""/>  </td> 
+                            </tr>
+                             <tr>
+                                <td>Twitter Id</td>
+                                <td> <input type="text" name="twitter_id" value=""/>  </td> 
+                            </tr>
+                             <tr>
+                                <td>Street Address</td>
+                                <td> <input type="text" name="street_address" value="" required/>  </td> 
+                            </tr>
+                             <tr>
+                                <td>City</td>
+                                <td> <input type="text" name="city" value="" required/>  </td> 
+                            </tr>
+                             <tr>
+                                <td>State</td>
+                                <td> <input type="text" name="state" value="" required/>  </td> 
+                            </tr>
+                            
+                             <tr>
+                                <td>Country</td>
+                                <td> <input type="text" name="country" value="" required/>  </td> 
+                            </tr>
+                             <tr>
+                                <td>Comment(Max. Length 1000 words.)</td>
+                                <td> <input type="text" name="comment" value="" maxlength="1000" required/>  </td> 
+                            </tr>
+                            <tr>
+                                <td>Meeting Time</td>
+                                <td> <input type="datetime-local" name="time" value="" required/>  </td> 
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td> <input type="submit" value="Submit Query" /></td>
+                                   
+                            </tr>
+                        </table>
+             
+               </form>
+    </body>
+</html>
