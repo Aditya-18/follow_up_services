@@ -11,7 +11,7 @@ import java.util.Iterator;
 import java.util.List;
 /**
  *
- * @author HP
+ * @author Aditya Goel
  */
 public class bean {
     String Eid,Password,Fname,Lname,Company,LeadOwner,Email,Website,Industry,Twitter,Skype,Street,City,State,Zip,Country,Mobile;
